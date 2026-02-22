@@ -19,17 +19,17 @@ $line_break\
 $character"""
 
 add_newline = true
-palette = 'vague'
+palette = 'gruvboxmaterial'
 
 [directory]
-style = 'bold blue'
+style = 'bold orange'
 format = '[$path ]($style)'
 truncation_length = 3
 truncation_symbol = '…/'
 truncate_to_repo = false
 
 [character]
-success_symbol = '[ ](bold purple)'
+success_symbol = '[ ](bold green)'
 error_symbol = '[ ](bold red)'
 
 [directory.substitutions]
@@ -41,7 +41,7 @@ error_symbol = '[ ](bold red)'
 [git_branch]
 symbol = ' '
 style = 'fg:gray'
-format = '[on]($style) [$symbol$branch ](bold orange)'
+format = '[on]($style) [$symbol$branch ](bold purple)'
 
 [git_status]
 style = 'fg:bold red'
@@ -106,15 +106,15 @@ min_time = 500
 style = 'italic fg:yellow'
 format = 'took [$duration]($style)'
 
-[palettes.vague]
-dark_blue = '#405065'
-blue      = '#6e94b2'
-red       = '#d8647e'
-green     = '#7fa563'
-purple    = '#bb9dbd'
-cyan      = '#9bb4bc'
-orange    = '#e0a363'
-yellow    = '#f3be7c'
-gray      = '#606079'
-white     = '#cdcdcd'
-black     = '#141415'
+[palettes.gruvboxmaterial]
+black = '#1d2021'
+gray = '#928374'
+white = '#d4be98'
+red = '#ea6962'
+orange = '#e78a4e'
+yellow = '#d8a657'
+green = '#a9b665'
+cyan = '#89b482'
+blue = '#7daea3'
+purple = '#d3869b'
+dark_blue = '#458588'
