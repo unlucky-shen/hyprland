@@ -1,6 +1,6 @@
 # Alias 
 alias s='sudo '
-alias v='nvim '
+alias v='nvim'
 alias hiscw='history -c && history -w'
 alias ls='ls -ll'
 alias lsg='sudo nix-env --list-generations -p /nix/var/nix/profiles/system'
@@ -11,6 +11,8 @@ alias nrf='sudo nixos-rebuild switch --flake .'
 alias ga='git add'
 alias gc='git commit -m'
 alias gs='git status'
+alias fpurge ='flatpak uninstall --delete-data' # Followed by App ID
+alias funused ='flatpak uninstall --unused'
 
 # Starship
 eval "$(starship init bash)"
