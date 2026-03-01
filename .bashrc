@@ -11,8 +11,8 @@ alias nrf='sudo nixos-rebuild switch --flake .'
 alias ga='git add'
 alias gc='git commit -m'
 alias gs='git status'
-alias fpurge ='flatpak uninstall --delete-data' # Followed by App ID
-alias funused ='flatpak uninstall --unused'
+alias fpurge='flatpak uninstall --delete-data' # Followed by App ID
+alias funused='flatpak uninstall --unused'
 
 # Starship
 eval "$(starship init bash)"
