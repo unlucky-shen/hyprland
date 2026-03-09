@@ -7,7 +7,6 @@
     min-height: 0;
 		margin: 0;
 		padding: 0;
-		color: #D4BE98;
 }
 
 window#waybar {
@@ -30,7 +29,7 @@ tooltip label {
     padding: 5px 15px;
 		margin: 0 4px;
     background: #1D2021;
-    /* color: #6099C0; */
+    color: #928374;
 		border-radius: 50px;
 		font-weight: 700;
 }
@@ -38,14 +37,14 @@ tooltip label {
 #workspaces button.active{
     min-width: 20px;
 		background: #1D2021;
-		/* color: #6099C0; */
+		color: #D4BE98;
 		border-radius: 50px;
 	  font-weight: 700;
 }
 
 #clock {
 	  background-color: #1D2021;
-    /* color: #DE6E7C; */
+    color: #89B482;
 		font-weight: 700;
 		padding: 5px 15px;
 		margin: 0 4px;
@@ -54,7 +53,7 @@ tooltip label {
 
 #battery {
     background-color: #1D2021;
-    /* color: #819B69; */
+    color: #A9B665;
 		font-weight: 700;
 		padding: 5px 15px;
 		margin: 0 4px;
@@ -63,7 +62,7 @@ tooltip label {
 
 #pulseaudio {
     background-color: #1D2021;
-    /* color: #B77E64; */
+    color: #E78A4E;
 		font-weight: 700;
 		padding: 5px 15px;
 		margin: 0 4px;
@@ -72,7 +71,7 @@ tooltip label {
 
 #network {
     background-color: #1D2021;
-    /* color: #B279A7; */
+    color: #D3869B;
 		font-weight: 700;
 		padding: 5px 15px;
 		margin: 0 4px;
