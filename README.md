@@ -2,8 +2,6 @@
 
 ![Preview](view.png)
 
-My hyprland config, with zenbones colorscheme
-
 ### NVIDIA GPU Tweaks 
 
 Add the below code to the very top of `hyprland.conf`,
