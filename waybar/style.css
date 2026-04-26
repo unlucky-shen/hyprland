@@ -81,20 +81,20 @@ tooltip label {
 #tray {
     padding: 5px 15px;
     background-color: #141415;
-    /* color: #A89984; */
+    /* color: #141415; */
 		border-radius: 50px;
 }
 
 #tray > .passive {
     -gtk-icon-effect: dim;
     background-color: #141415;
-    /* color: #A89984; */
+    /* color: #141415; */
 		border-radius: 50px;
 }
 
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
     background-color: #141415;
-    /* color: #A89984; */
+    /* color: #141415; */
 		border-radius: 50px;
 }
