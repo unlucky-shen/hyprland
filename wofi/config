@@ -1,39 +1,20 @@
-## Wofi Config
-
-## General
+# Window
+width=600
+height=400
+location=center
 show=drun
-prompt=Apps
-normal_window=true
-layer=top
-term=kitty
 
-## Geometry
-width=600px
-height=400px
-location=0
-orientation=vertical
-halign=fill
-line_wrap=off
-dynamic_lines=false
-
-## Images
-allow_markup=true
-allow_images=true
-image_size=24
-
-## Search
-exec_search=false
-hide_search=false
-parse_search=false
-insensitive=false
-
-## Other
-hide_scroll=true
-no_actions=true
-sort_order=default
-gtk_dark=true
+# Search Bar
+prompt=Search...
 filter_rate=100
+allow_markup=true
+no_actions=true
+halign=fill
+orientation=vertical
+content_type=application/x-desktop
 
-## Keys
-key_expand=Tab
-key_exit=Escape
+# App Symbols
+hide_scroll=true
+allow_images=true
+show_icons=true
+icon_size=16

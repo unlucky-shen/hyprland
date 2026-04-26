@@ -1,52 +1,54 @@
-* {
-  font-family: 'SF Pro Rounded';
-  font-size: 17px;
-	font-weight: 700;
-}
-
-#window {
-  background-color: --wofi-color0;
-  color: --wofi-color2;
-  border: 2px solid --wofi-color1;
-  border-radius: 0px;
+window {
+    margin: 25px;
+		border: 1px solid #141415;
+		border-radius: 15px;
+    background-color: #141415;
+    font-family: "SF Pro Rounded";
+    font-size: 14px;
+		font-weight: 700;
 }
 
 #outer-box {
-  padding: 20px;
+    margin: 5px;
+    border: none;
+		border-radius: 10px;
+    background-color: #141415;
 }
 
 #input {
-  background-color: --wofi-color1;
-  border: 0px solid --wofi-color3;
-  padding: 8px 12px;
+    margin: 10px;
+    border: none;
+    color: #cdcdcd;
+    background-color: #252530;
 }
 
-#scroll {
-  margin-top: 20px;
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: #141415;
 }
 
-#img {
-  padding-right: 8px;
+#entry:selected {
+    background-color: #252530;
+    border-radius: 5px;
+		margin: 5px;
 }
 
 #text {
-  color: --wofi-color2;
+    margin: 5px;
+    border: none;
+    color: #cdcdcd;
 }
 
 #text:selected {
-  color: --wofi-color0;
+    color: #aeaed1;
+}
+
+#img {
+    margin-right: 10px;
+    background: transparent;
 }
 
 #entry {
-  padding: 6px;
-}
-
-#entry:selected {
-  background-color: --wofi-color3;
-  color: --wofi-color0;
-}
-
-#input,
-#entry:selected {
-  border-radius: 4px;
+    padding: 5px;
 }
