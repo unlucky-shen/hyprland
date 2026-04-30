@@ -1,14 +1,20 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-entries="1. Sleep\n2. Restart\n3. Shut Down"
+options="󰤄 Suspend\n󰜉 Restart\n󰐥 Power Off"
 
-selected=$(echo -e $entries | wofi --dmenu --cache-file /dev/null | awk '{print $2}')
+chosen=$(echo -e "$options" | wofi --dmenu --width 300 --height 125 --cache-file /dev/null --prompt "Power Menu")
 
-case $selected in
-  Suspend)
-    systemctl suspend ;;
-  Restart)
-    systemctl reboot ;;
-  "Power")
-    systemctl poweroff ;;
+case "$chosen" in
+    *Suspend)
+        systemctl suspend
+        ;;
+    *Restart)
+        systemctl reboot
+        ;;
+    *"Power Off")
+        systemctl poweroff
+        ;;
+    *)
+        exit 1
+        ;;
 esac
