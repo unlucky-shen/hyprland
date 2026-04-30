@@ -1,54 +1,62 @@
 window {
-    margin: 25px;
-		border: 1px solid #141415;
-		border-radius: 15px;
-    background-color: #141415;
-    font-family: "SF Pro Rounded";
-    font-size: 14px;
-		font-weight: 700;
+	margin: 0px;
+	padding: 15px;
+	border: 1px solid #252530;
+	background-color: #141415;
+	border-radius: 18px;
+	font-family: "SF Pro Rounded";
+	font-weight: "700";
 }
 
 #outer-box {
-    margin: 5px;
-    border: none;
-		border-radius: 10px;
-    background-color: #141415;
+	margin: 10px;
+	border: none;
+	background-color: transparent;
 }
 
 #input {
-    margin: 10px;
-    border: none;
-    color: #cdcdcd;
-    background-color: #252530;
+	margin: 5px;
+	border: none;
+	border-radius: 8px;
+	color: #cdcdcd;
+	background-color: #141415;
+	padding: 2px 2px 2px 10px;
+}
+
+#prompt {
+	color: #bb9dbd;
+	margin-right: 10px;
+	font-weight: 500;
 }
 
 #inner-box {
-    margin: 5px;
-    border: none;
-    background-color: #141415;
-}
-
-#entry:selected {
-    background-color: #252530;
-    border-radius: 5px;
-		margin: 5px;
-}
-
-#text {
-    margin: 5px;
-    border: none;
-    color: #cdcdcd;
-}
-
-#text:selected {
-    color: #aeaed1;
-}
-
-#img {
-    margin-right: 10px;
-    background: transparent;
+	margin: 5px;
+	border: none;
+	background-color: transparent;
 }
 
 #entry {
-    padding: 5px;
+	padding: 8px;
+	border-radius: 8px;
+	border: none;
+}
+
+#text {
+	margin-left: 10px;
+	color: #cdcdcd;
+	font-weight: 500;
+}
+
+#entry:selected {
+	background-color: #252530;
+	outline: none;
+}
+
+#text:selected {
+	color: #cdcdcd;
+	font-weight: 700;
+}
+
+#img {
+	margin-right: 5px;
 }
